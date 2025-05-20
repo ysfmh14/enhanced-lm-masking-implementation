@@ -16,6 +16,11 @@ selective-masking-mlm-reproduction/
 ├── main.py
 ├── requirements.txt
 ├── README.md
+├── data/
+│   ├── raw/
+│   └── processed/
+├── models/
+│   └── checkpoints/
 └── scripts/
     ├── cleaning.py
     ├── config.py
@@ -24,4 +29,5 @@ selective-masking-mlm-reproduction/
     ├── metrics.py
     ├── tfidf_matrix.py
     └── tokenizer_utils.py
+
 
