@@ -12,12 +12,16 @@ This paper introduces a training pipeline for pre-trained language models, consi
 
 ## 🧩 Project Structure
 
-├── main.py # Main pipeline: post-training + fine-tuning
-├── scripts/
-│ ├── cleaning.py # Text cleaning utilities
-│ ├── config.py # Config files and constants
-│ ├── data_collator.py # Custom data collators for two proposed strategies
-│ ├── data_loader.py # Load datasets and lexicons
-│ ├── metrics.py # Evaluation metrics
-│ ├── tfidf_matrix.py # TF-IDF computation for masking
-│ └── tokenizer_utils.py # Tokenizer initialization and processing
+selective-masking-mlm-reproduction/
+├── main.py
+├── requirements.txt
+├── README.md
+└── scripts/
+    ├── cleaning.py
+    ├── config.py
+    ├── data_collator.py
+    ├── data_loader.py
+    ├── metrics.py
+    ├── tfidf_matrix.py
+    └── tokenizer_utils.py
+
