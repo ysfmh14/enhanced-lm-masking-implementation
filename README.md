@@ -63,6 +63,15 @@ Place your datasets and lexicon files in the appropriate format, and update the 
   ### Strategy 2
 ![Aperçu du pipeline](images/strategy1-vF2.png)
 
+## 📊 Results
+We evaluated our approach using:
+
+ - Domains: Biomedical, Plant Health, Syndromic Surveillance
+
+ - Models: bert-base-uncased, allenai/scibert_scivocab_uncased, dmis-lab/biobert-base-cased-v1.1
+
+Results showed consistent improvements in classification accuracy across all tested domains and models.
+
 ## 📁 Citation
 If you use this code, please cite the original paper:
 
