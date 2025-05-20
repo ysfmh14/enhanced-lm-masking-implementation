@@ -62,3 +62,8 @@ Place your datasets and lexicon files in the appropriate format, and update the 
 ![Aperçu du pipeline](images/strategy2-vf1.png)
   ### Strategy 2
 ![Aperçu du pipeline](images/strategy1-vF2.png)
+
+## 📁 Citation
+If you use this code, please cite the original paper:
+
+**Enhancing Language Models for Specialized Classification Tasks Using Selective Masking Strategies.**
