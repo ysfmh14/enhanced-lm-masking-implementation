@@ -50,3 +50,9 @@ Place your datasets and lexicon files in the appropriate format, and update the 
 ### 4. Run the Pipeline
 
     python main.py
+
+
+---
+
+##⚙️Proposed Pipline and Selective masking stratégies:
+![Aperçu du pipeline](images/pipeline.png)
