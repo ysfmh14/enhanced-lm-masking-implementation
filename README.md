@@ -44,16 +44,16 @@ Make sure you have Python 3.8+ installed, then run:
 
 Place your datasets and lexicon files in the appropriate format, and update the paths in `scripts/config.py`:
 
-    - `POST_TRAINING_DATA_FILE`
-    - `FINE_TUNING_DATA_FILE`
-    - `LEXIC_FILE`
+- `POST_TRAINING_DATA_FILE`
+- `FINE_TUNING_DATA_FILE`
+- `LEXIC_FILE`
 ### 4. Prepare Parameters
 Set the following parameters in `scripts/config.py`:
 
-           - LABEL_NUM = 2 # Number of labels in fine tuning data
-           - MODEL_NAME = "bert-base-uncased" # name of the langage modele 
-           - USED_STRATEGY = 1 # If you want to use strategie 1 write 1. If you want to use strategie 2 write 2.
-           - MAX_LENGTH_TEXT = 512 # Must be <= 512
+    - LABEL_NUM = 2 # Number of labels in fine tuning data
+    - MODEL_NAME = "bert-base-uncased" # name of the langage modele 
+    - USED_STRATEGY = 1 # If you want to use strategie 1 write 1. If you want to use strategie 2 write 2.
+    - MAX_LENGTH_TEXT = 512 # Must be <= 512
 ### 5. Run the Pipeline
 
     python main.py
