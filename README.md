@@ -2,7 +2,7 @@
 
 This repository provides the implementation of the training pipeline introduced in the paper:
 
-**"Enhancing Language Models for Specialized Classification Tasks Using Selective Masking Strategies" **
+**Enhancing Language Models for Specialized Classification Tasks Using Selective Masking Strategies**
 
 ## 📄 Abstract
 
