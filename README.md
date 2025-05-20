@@ -30,17 +30,25 @@ This paper introduces a training pipeline for pre-trained language models, consi
 
 ## 🚀 How to Run
 
-### 1. Clone the Repository
+ ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/selective-masking-mlm-reproduction.git
-cd selective-masking-mlm-reproduction
----
+    ```bash
+    git clone https://github.com/your-username/selective-masking-mlm-reproduction.git
+    cd selective-masking-mlm-reproduction
+
 
 ### 2. Install Dependencies
 Make sure you have Python 3.8+ installed, then run:
 
-```bash
-Copier
-Modifier
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+### 3. Prepare Data
+
+Place your datasets and lexicon files in the appropriate format, and update the paths in `scripts/config.py`:
+
+    - `POST_TRAINING_DATA_FILE`
+    - `FINE_TUNING_DATA_FILE`
+    - `LEXIC_FILE`
+### 4. Run the Pipeline
+    ```bash
+    python main.py
