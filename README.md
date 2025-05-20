@@ -12,20 +12,17 @@ This paper introduces a training pipeline for pre-trained language models, consi
 
 ## 🧩 Project Structure
 
-selective-masking-mlm-reproduction/  
-├── main.py  
-
-├── requirements.txt
-
-├── README.md
-└── scripts/
-
-    ├── cleaning.py
-    ├── config.py
-    ├── data_collator.py
-    ├── data_loader.py
-    ├── metrics.py
-    ├── tfidf_matrix.py
-    └── tokenizer_utils.py
+    selective-masking-mlm-reproduction/ 
+        ├── main.py
+        ├── requirements.txt
+        ├── README.md
+        └── scripts/    
+            ├── cleaning.py
+            ├── config.py
+            ├── data_collator.py
+            ├── data_loader.py
+            ├── metrics.py
+            ├── tfidf_matrix.py
+            └── tokenizer_utils.py
 
 
