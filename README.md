@@ -57,6 +57,8 @@ Place your datasets and lexicon files in the appropriate format, and update the 
 ## ⚙️Proposed Pipeline and Selective masking strategies:
  
   ### Pipeline
-     ![Aperçu du pipeline](images/Pipline_training.png)
+![Aperçu du pipeline](images/Pipline_training.png)
+  ### Strategy 1
 ![Aperçu du pipeline](images/strategy2-vf1.png)
+  ### Strategy 2
 ![Aperçu du pipeline](images/strategy1-vF2.png)
