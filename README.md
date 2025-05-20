@@ -12,16 +12,15 @@ This paper introduces a training pipeline for pre-trained language models, consi
 
 ## 🧩 Project Structure
 
-selective-masking-mlm-reproduction/
-├── main.py
+selective-masking-mlm-reproduction/  
+├── main.py  
+
 ├── requirements.txt
+
 ├── README.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── models/
-│   └── checkpoints/
+
 └── scripts/
+
     ├── cleaning.py
     ├── config.py
     ├── data_collator.py
