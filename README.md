@@ -26,3 +26,13 @@ This paper introduces a training pipeline for pre-trained language models, consi
             └── tokenizer_utils.py
 
 
+---
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/selective-masking-mlm-reproduction.git
+cd selective-masking-mlm-reproduction
+
