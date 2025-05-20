@@ -67,3 +67,9 @@ Place your datasets and lexicon files in the appropriate format, and update the 
 If you use this code, please cite the original paper:
 
 ***Enhancing Language Models for Specialized Classification Tasks Using Selective Masking Strategies.***
+
+## 📬 Contact
+If you have any questions, encounter issues with the code, or would like to know more about our work, please contact the corresponding author:
+
+📧 Personal email (permanent): ysfmh2002@gmail.com
+📧 Professional email (not sure if permanent): mahdoubi.youssef@usms.ma
