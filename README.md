@@ -66,9 +66,9 @@ Set the following parameters in `scripts/config.py`:
   ### Pipeline
 ![Aperçu du pipeline](images/Pipline_training.png)
   ### SM-Lex-TFIDF Strategy
-![Aperçu du pipeline](images/strategy2-vf1.png)
+![Aperçu du pipeline](images/SM-Lex-TFIDF.png)
   ### SM-NonLex-TFIDF Strategy
-![Aperçu du pipeline](images/strategy1-vF2.png)
+![Aperçu du pipeline](images/SM-NonLex-TFIDF.png)
 
 ## 📊 Results
 We evaluated our approach using:
