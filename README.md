@@ -2,11 +2,11 @@
 
 This repository provides the implementation of the training pipeline introduced in the paper:
 
-***Enhancing Language Models for Specialized Classification Tasks Using Selective Masking Strategies***
+***Enhancing Language Models with Selective Masking for Thematic and Misinformation Classification in a One Health Context***
 
 ## 📄 Abstract
 
-This paper introduces a training pipeline for pre-trained language models, consisting of two phases. The first phase involves post-training guided by selective masking to adapt the model to a specific domain, while the second phase is reserved for fine-tuning the model on the classification task. The objective is to address the problem of scarce labeled data in specialized domains such as biomedical, plant health, and animal health. Furthermore, we propose two novel selective masking strategies designed for the post-training phase. We performed several experiments to evaluate the performance of our approach using the proposed selective masking strategies, across three specific domains: biomedical, plant health, and syndromic surveillance, as well as with three language models: BERTBase, SciBERT, and BioBERT. The results demonstrated significant improvements in the performance of the language models in the classification task. Additionally, we proposed a summary that maps each strategy to the context in which it is most effective.
+The objective of this paper is to address the scarcity of labeled textual data and improve the performance of language models within a One Health context in two closely related application areas: (i) thematic content in integrated health, covering biomedical, plant health, and syndromic surveillance domains, and (ii) epidemic misinformation, focusing on enhancing epidemiological monitoring. We introduce a training pipeline for language models that consists of two phases. The first phase involves post-training guided by selective masking strategies to adapt the model to a specific domain; for that, we propose two novel masking strategies: SM-Lex-TFIDF, which masks domain lexicon terms with high TF-IDF (Term frequency-Inverse document frequency), and SM-NonLex TFIDF, which masks non-domain lexicon terms with high TF-IDF. The second phase focuses on fine-tuning the model for the classification task using a small amount of labeled textual data. We conducted several experiments to evaluate the performance of our approach using three language models: BERTBase, SciBERT and BioBERT. The results showed significant improvements in the performance of the language models for the classification task in the two targeted areas, even with limited labeled textual data. In addition, we provide a summary that maps each strategy to the context in which it is most effective.
 
 ---
 
@@ -65,9 +65,9 @@ Set the following parameters in `scripts/config.py`:
  
   ### Pipeline
 ![Aperçu du pipeline](images/Pipline_training.png)
-  ### Strategy 1
+  ### SM-Lex-TFIDF Strategy
 ![Aperçu du pipeline](images/strategy2-vf1.png)
-  ### Strategy 2
+  ### SM-NonLex-TFIDF Strategy
 ![Aperçu du pipeline](images/strategy1-vF2.png)
 
 ## 📊 Results
