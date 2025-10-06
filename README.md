@@ -71,10 +71,9 @@ Set the following parameters in `scripts/config.py`:
 ![Aperçu du pipeline](images/SM-NonLex-TFIDF.PNG)
 
 ## 📊 Results
-We evaluated our approach using:
+We evaluated our approach in a One Heaalth Context using:
 
- - **Domains:** Biomedical, Plant Health, Syndromic Surveillance
-
+ - **Domains:** Integratd Health and Epidemic misinformation
  - **Models:** `bert-base-uncased`, `allenai/scibert_scivocab_uncased`,`dmis-lab/biobert-base-cased-v1.1`
 
 Results showed consistent improvements in classification accuracy across all tested domains and models.
