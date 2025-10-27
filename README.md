@@ -1,12 +1,18 @@
 # enhanced-lm-masking-implementation
 
-This repository provides the implementation of the training pipeline introduced in the paper:
+This repository provides the implementation of the training pipeline and the proposed selective masking strategies introduced in the paper:
 
 ***Enhancing Language Models with Selective Masking for Thematic and Misinformation Classification in a One Health Context***
 
 ## 📄 Abstract
 
-The objective of this paper is to address the scarcity of labeled textual data and improve the performance of language models in classification task within a One Health context, using small domain-specific labeled corpora. To address this challenge, we propose a two-phase training pipeline for language models, in which the first phase involves post-training guided by selective masking strategies to adapt the model to a specific domain. For this purpose, we propose two novel masking strategies: SM-Lex-TFIDF, which masks domain lexicon terms with high TF-IDF (Term Frequency-Inverse Document Frequency), and SM-NonLex-TFIDF, which masks non-domain lexicon terms with high TF-IDF. The second phase focuses on fine-tuning the model for the classification task using small labeled data. To demonstrate the effectiveness of our approach, we focus on two related application areas within One Health context: (i) thematic content in integrated health, covering biomedical, plant health, and syndromic surveillance domains, and (ii) epidemic misinformation, to improve epidemiological monitoring. We conducted several experiments to evaluate the performance of our approach using three language models: BERTBase, SciBERT and BioBERT. The results demonstrate significant improvements in the performance of the language models for the classification task in the two targeted areas, even with small labeled data. In addition, we provide a summary mapping each strategy to its most effective context.
+The objective of this paper is to address the scarcity of labeled textual data and improve the performance of language models in classification task within a One Health context, using small domain-specific labeled corpora. To ad-
+dress this challenge, we propose a two-phase training pipeline for language models, in which the first phase involves post-training guided by selective masking (SM) strategies to adapt the model to a specific domain. For this
+purpose, we propose two novel masking strategies: SM-Lex-TFIDF, whichmasks domain lexicon terms with high TF-IDF (Term Frequency-Inverse Document Frequency), and SM-NonLex-TFIDF, which masks non-domain
+lexicon terms with high TF-IDF. The second phase focuses on fine-tuning the model for the classification task using small labeled data. To demonstrate the effectiveness of our approach, we focus on two related application areas
+within One Health context: (i) thematic content in integrated health, covering biomedical, plant health, and syndromic surveillance domains, and (ii) epidemic misinformation, to improve One Health monitoring. We conducted
+several evaluations to asses the performance of our approach using three language models: BERTBase, SciBERT and BioBERT. The results demonstrate significant improvements in the performance of the language models for the
+classification task in the two targeted areas, even with small labeled data. In addition, we provide a summary mapping each strategy to its most effective context.
 
 ---
 
@@ -61,22 +67,13 @@ Set the following parameters in `scripts/config.py`:
 
 ---
 
-## ⚙️Proposed Pipeline and Selective masking strategies:
- 
-  ### Pipeline
-![Aperçu du pipeline](images/Pipline_training.png)
-  ### SM-Lex-TFIDF Strategy
-![Aperçu du pipeline](images/SM-Lex-TFIDF.PNG)
-  ### SM-NonLex-TFIDF Strategy
-![Aperçu du pipeline](images/SM-NonLex-TFIDF.PNG)
-
 ## 📊 Results
 We evaluated our approach in a One Heaalth Context using:
 
  - **Domains:** Integratd Health and Epidemic misinformation
  - **Models:** `bert-base-uncased`, `allenai/scibert_scivocab_uncased`,`dmis-lab/biobert-base-cased-v1.1`
 
-Results showed consistent improvements in classification accuracy across all tested domains and models.
+Results showed consistent improvements in classification performances (accuracy, precision, recall and F1-score) across all tested domains and models.
 
 ## 📁 Citation
 If you use this code, please cite the original paper:
@@ -88,4 +85,4 @@ If you have any questions, encounter issues with the code, or would like to know
 
 📧 Personal email (permanent): ysfmh2002@gmail.com
 
-📧 Professional email (not sure if permanent): mahdoubi.youssef@usms.ma
+📧 Professional email (not sure if permanent): mahdoubi.youssef@usms.ac.ma
