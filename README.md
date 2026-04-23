@@ -75,7 +75,7 @@ Results showed consistent improvements in classification performances (accuracy,
 If you use this code, please cite the original paper:
 
 ***Enhancing Language Models with Selective Masking for Thematic and Misinformation Classification in a One Health Context***
-
+***DOI: https://doi.org/10.1016/j.eswa.2026.132345***
 ## 📬 Contact
 If you have any questions, encounter issues with the code, or would like to know more about our work, please contact the corresponding author:
 
